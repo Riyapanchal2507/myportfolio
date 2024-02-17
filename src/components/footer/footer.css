@@ -1,0 +1,14 @@
+.footer{
+    padding: 0px 100px;
+    background: #4b208c;
+    display: flex;
+    color: #eae6f5;
+    justify-content: space-between;
+}
+.footer-title {
+    font-size: 46px;
+    font-weight: 700;
+}
+.footer .social-icon {
+    height: 30px;
+}

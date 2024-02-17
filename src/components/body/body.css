@@ -1,0 +1,10 @@
+.body{
+    padding-bottom: 36px;
+    width: 70%;
+    margin: auto;
+}
+.section-title {
+    font-size: 46px;
+    font-weight: 700;
+    color: #4b208c;
+}

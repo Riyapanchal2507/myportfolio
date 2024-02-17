@@ -1,0 +1,64 @@
+form{
+    background-color: #4b208c;
+    padding: 40px 50px;
+}
+input{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+input:hover{
+    box-shadow: 0px 0px 15px 0px #eae6f5;
+    transition: 0.3s;
+}
+textarea{
+    margin-top: 20px;
+    height: 10vh;
+    width: 100%;
+    resize: none;
+    outline: none;
+}
+form textarea:hover{
+    box-shadow: 0px 0px 15px 0px #eae6f5;
+    transition: 0.3s;
+}
+form button{
+    display: flex;
+    margin-top: 30px;
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 6px 30px;
+    background-color: #eae6f5;
+    color: #4b208c;
+}
+form button:hover{
+    box-shadow:0px 0px 20px 0px #eae6f5;
+    transition: 0.3s;
+}
+form p{
+    margin-top: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #eae6f5;
+}
+form a{
+    color: #e7e2f3;
+    font-weight: bold;
+    text-decoration: none;
+}
+form a:hover{
+    box-shadow: 0px 0px 10px 0px #eae6f5 ;
+    transition: 0.5s;
+}
+@media screen and (max-width:425px) {
+    form{
+        padding:  0 40px;
+    }
+    form p{
+        padding-bottom: 10px;
+    }
+}

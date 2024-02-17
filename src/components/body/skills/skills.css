@@ -1,0 +1,30 @@
+.skills{
+    padding: 50px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.skills-list{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+.skills-container{
+    margin: 60px 0;
+}
+.skills-section-title{
+    font-size: 32px;
+    font-weight: 500;
+}
+@media screen and (max-width:1024px) {
+    .skills {
+        width: 90%;
+    }
+}
+@media screen and (max-width:768px) {
+    .skills-list{
+        justify-content: center;
+    }
+}

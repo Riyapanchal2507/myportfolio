@@ -1,0 +1,42 @@
+.web{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.web-option{
+    margin-right: 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.web-option .web-option-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #eae6f5;
+    font-size: 25px;
+}
+.option-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.web-option:last-child{
+    margin-right: 0;
+}
+@media screen and (max-width:1024px) {
+    .web-option{
+        margin-right: 20px;
+    }
+    .web-option a{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:768px) {
+    .web-option {
+        margin-right: 17px;
+    }
+
+    .web-option a {
+        font-size: 20px;
+    }
+}

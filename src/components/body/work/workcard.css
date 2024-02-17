@@ -1,0 +1,23 @@
+.work-card{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.company-name{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ed6e63;
+    display: flex;
+}
+.work-post{
+    font-size: 17px;
+    color: gray;
+}
+.workdates{
+    margin-top: 10px;
+}
+.work-description p{
+    line-height: 25px;
+    word-spacing: 2px;
+}

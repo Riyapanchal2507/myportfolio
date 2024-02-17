@@ -1,0 +1,10 @@
+.work{
+    padding: 50px 0;
+    width: 70%;
+    margin: auto;
+}
+@media screen and (max-width:1024px) {
+    .work{
+        width: 90%;
+    }
+}

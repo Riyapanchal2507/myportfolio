@@ -1,0 +1,11 @@
+
+.skill-icon i{
+    font-size: 100px;
+    border: 1px solid;
+    padding: 50px 35px;
+    display: flex;
+}
+.skill-name{
+    font-size: 26px;
+    font-weight: 500;
+}

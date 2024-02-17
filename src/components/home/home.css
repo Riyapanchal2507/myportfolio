@@ -1,0 +1,28 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    display: flex;
+    flex-direction:column;
+}
+ .body-main {
+    width: 70%;
+    margin: auto;
+}
+
+.stickys{
+    position: sticky;
+    top: 0;
+}
+.fixes{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+}
+.section-title{
+    font-size: 46px;
+    font-weight: 700;
+    color: #4b208c;
+}

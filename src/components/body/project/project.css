@@ -1,0 +1,17 @@
+.project-img{
+    width: 40%;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px 0;
+    width: 70%;
+    margin: auto;
+}
+
+@media screen and (max-width:1024px) {
+    .projects {
+        width: 90%;
+    }
+}
